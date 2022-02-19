@@ -1,0 +1,27 @@
+{
+  "name": "analizador-lexico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "buffer-from": "^1.1.2",
+    "source-map": "^0.6.1",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arenasjuanf/analizador-lexico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arenasjuanf/analizador-lexico/issues"
+  },
+  "homepage": "https://github.com/arenasjuanf/analizador-lexico#readme"
+}
