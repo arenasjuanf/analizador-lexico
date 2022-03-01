@@ -1,0 +1,8 @@
+GenericClass {
+    baz = 1 // comentario ejemplo
+    bar {
+        numero = 42
+        mensaje = "Hola Mundo"
+    }
+    quux = 7
+}
