@@ -87,12 +87,15 @@ export default class Analyzer{
         try{
             this.lexer.input(value);
             this.lexer.debug(debug);
+
             const lines: any = {};
+            
             this.lexer.tokens().forEach((token: Token, pos: number) => {
                 const {line} = token;
                 lines[line] ||= [];
                 lines[line].push(token);
             })
+
     
             Object.keys(lines).forEach((line) => {
                 console.log(chalk.greenBright(`LINE ${line} : `));
