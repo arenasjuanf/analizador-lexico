@@ -1,8 +1,14 @@
 GenericClass {
     baz = 1 // comentario ejemplo
-    bar {
+    bar{
         numero = 42
         mensaje = "Hola Mundo"
     }
-    quux = 7
+
+    fun test(nombre, apellido){
+        numero = 5 + 2
+    }
+
+    //@?
+
 }
